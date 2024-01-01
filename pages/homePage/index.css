@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: var(--Neutral-Silver, #F5F7FA);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px 30px 105px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Text-Gray-900, #18191F);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.btn1 a {
+    color: var(--Brand-Primary, #4CAF4F);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.btn1 {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--Neutral-Silver, #F5F7FA);
+    border: none;
+}
+
+.btn2 a {
+    color: var(--Default-White, #FFF);
+    text-align: center;
+    font-feature-settings: 'salt' on, 'clig' off, 'liga' off;
+
+
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.btn2 {
+    border: none;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    background: var(--Brand-Primary, #4CAF4F);
+}
+
+h1 {
+    color: var(--Neutral-D_Grey, #4D4D4D);
+
+
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 76px;
+}
+
+p {
+    color: var(--Neutral-Grey, #717171);
+
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 32px;
+}
+
+.btn3 a {
+    color: var(--Neutral-White, #FFF);
+    text-align: center;
+
+
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.btn3 {
+    display: flex;
+    padding: 14px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--Brand-Primary, #4CAF4F);
+    border: none;
+}
+
+main {
+    display: flex;
+    padding: 165px 104px 135px 144px;
+}
